@@ -249,7 +249,7 @@ node src/script.js
 You should see the created user and all users printed to the console!
 
 
-#### 9. Explore your data with Prisma Studio
+#### 9. Explore your data with Prisma Studio and SQLite CLI
 Prisma Studio is a visual editor for your database. Launch it with:
 ```
 npx prisma studio
@@ -260,6 +260,13 @@ npx prisma studio
 This opens a web interface where you can view and edit your data.
 
 ![alt studio-2](img/studio-2.JPG)
+
+Explore with SQLite CLI:
+```
+npm run sql 
+```
+
+![alt sql](img/sql.JPG)
 
 
 #### 10. Project structure 
