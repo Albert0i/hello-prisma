@@ -56,6 +56,7 @@ package.json
   "main": "index.js",
   "type":"module",
   "scripts": {
+    "sql": "sqlite3 data/dev.db",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
@@ -263,8 +264,40 @@ This opens a web interface where you can view and edit your data.
 
 #### 10. Project structure 
 ```
-
+|   .env
+|   package-lock.json
+|   package.json
+|   prisma.config.ts
+|   README.md
+|   
++---data
+|       dev.db
+|       
++---generated
+|   \---prisma
+|       |   browser.ts
+|       |   client.ts
+|       |   commonInputTypes.ts
+|       |   enums.ts
+|       |   models.ts
+|       |   query_engine-windows.dll.node
+|           
++---prisma
+|   |   schema.prisma
+|   |   
+|   \---migrations
+|       |   migration_lock.toml
+|       |   
+|       \---20260216033506_init
+|               migration.sql
+|               
+\---src
+    |   script.js
+    |   
+    \---lib
+            prisma.js
 ```
+
 
 #### Next steps
 You've successfully set up Prisma ORM. Here's what you can explore next:

@@ -4,6 +4,7 @@
   "main": "index.js",
   "type":"module",
   "scripts": {
+    "sql": "sqlite3 data/dev.db",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
