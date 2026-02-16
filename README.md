@@ -326,4 +326,9 @@ You've successfully set up Prisma ORM. Here's what you can explore next:
 1. [Quickstart with Prisma ORM and SQLite](https://www.prisma.io/docs/getting-started/prisma-orm/quickstart/sqlite)
 
 
+```
+set DEBUG=*
+npx prisma mcp --url "file:../data/dev.db"
+```
+
 ### EOF (2026/01/16)
