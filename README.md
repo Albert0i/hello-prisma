@@ -255,16 +255,16 @@ Prisma Studio is a visual editor for your database. Launch it with:
 npx prisma studio
 ```
 
-This opens a web interface where you can view and edit your data.
-
 ![alt studio-1](img/studio-1.JPG)
+
+This opens a web interface where you can view and edit your data.
 
 ![alt studio-2](img/studio-2.JPG)
 
 
 #### 10. Project structure 
 ```
-|   .env
++   .env
 |   package-lock.json
 |   package.json
 |   prisma.config.ts
@@ -316,7 +316,7 @@ You've successfully set up Prisma ORM. Here's what you can explore next:
 
 
 #### Reference 
-[Quickstart with Prisma ORM and SQLite](https://www.prisma.io/docs/getting-started/prisma-orm/quickstart/sqlite)
+1. [Quickstart with Prisma ORM and SQLite](https://www.prisma.io/docs/getting-started/prisma-orm/quickstart/sqlite)
 
 
 ### EOF (2026/01/16)
