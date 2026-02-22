@@ -1,4 +1,3 @@
 DATABASE_URL="file:../data/dev.db"
 
 DATABASE_URL_RUNTIME="file:./data/dev.db"
-
